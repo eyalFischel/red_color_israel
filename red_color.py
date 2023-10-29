@@ -1,9 +1,6 @@
 import requests
-from bs4 import BeautifulSoup
-import os
 import pandas as pd
 import matplotlib.pyplot as plt
-import math
 
 # TODO CHANGE ME 
 url_for_the_code =  f'https://www.oref.org.il//Shared/Ajax/GetAlarmsHistory.aspx?lang=en&fromDate=01.10.2023&toDate=31.10.2023&mode=0'
