@@ -80,7 +80,7 @@ class redColor:
 
 
 def main():
-    red_color = redColor(url_for_the_code) # TOTO REPLACE ME WITH YOUR URL
+    red_color = redColor(url_for_the_code) 
     data = red_color.get_red_color()
     red_color.clean_data(data)
     red_color.plot_minutes_against_incident_count()
@@ -92,8 +92,6 @@ if __name__ == '__main__':
     main()
 
 
-
-# use calander to transform the dates to days and count which days had the most incidents
 
 
 
